@@ -1,0 +1,4 @@
+name: BungeeLoadBalancer
+main: me.felixnaumann.bungee.loadbalancer.BungeeLoadBalancer
+version: 0.1
+author: failex234
