@@ -30,7 +30,7 @@ public class BungeeLoadBalancer extends Plugin implements Listener {
         }
 
         if (smallest != null) {
-            System.out.printf("[LoadBalancer] Sent player %s to server %s\n", e.getPlayer().getName(), smallest.getName());
+            System.out.println("[LoadBalancer] Sent player " + e.getPlayer().getName() + " to server " + smallest.getName());
             e.getPlayer().connect(smallest);
         }
     }
